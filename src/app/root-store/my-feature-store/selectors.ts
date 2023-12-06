@@ -4,7 +4,7 @@ import { MyModel } from "src/app/models/my-model";
 
 export const getError = (state: State): any => state.error;
 
-export const getIsLoading = (state: State): boolean | undefined => state.isLoading;
+export const getIsLoading = (state: State): boolean  => state.isLoading;
 
 export const selectMyFeatureState: MemoizedSelector<object, State> = createFeatureSelector<State>('myFeature');
 
@@ -24,7 +24,7 @@ export const selectMyFeatureError: MemoizedSelector<object, any> = createSelecto
   getError
 );
 
-export const selectMyFeatureIsLoading:  MemoizedSelector<object, boolean | undefined> = createSelector(
+export const selectMyFeatureIsLoading:  MemoizedSelector<object, boolean> = createSelector(
   selectMyFeatureState,
   getIsLoading
 );

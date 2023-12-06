@@ -8,7 +8,7 @@ export const featureAdapter: EntityAdapter<MyModel> = createEntityAdapter<MyMode
 });
 
 export interface State extends EntityState<MyModel> {
-  isLoading?: boolean;
+  isLoading: boolean;
   error?: any;
 }
 
