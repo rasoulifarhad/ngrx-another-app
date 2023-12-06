@@ -85,3 +85,4 @@ Note:
 See https://medium.com/upstate-interactive/create-a-login-feature-with-ngrx-in-6-steps-8691395bcda7
 See https://itnext.io/ngrx-best-practices-for-enterprise-angular-applications-6f00bcdf36d7
 
+See https://itnext.io/ngrx-best-practices-for-enterprise-angular-applications-6f00bcdf36d7
